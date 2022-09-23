@@ -45,7 +45,7 @@ class ToothPaste{
 	 {
 		 mobileNo=value;
 	 }
-	 static long getmoblieNo()
+	 static long getmobileNo()
 	 {
 		 return mobileNo;
 	 }
@@ -83,13 +83,52 @@ class ToothPaste{
 	 }
 	 static void setnetWeight(int value)
 	 {
-		 netWeight=value
+		 netWeight=value;
 	 }
 	 static int getnetWeight()
 	 {
 		 return netWeight;
 	 }
-	 static void 
+	 static void setsize(char value)
+	 {
+		 size=value;
+	 }
+	 static char getsize()
+	 {
+		 return size;
+	 }
+	 static void setingredients(String value)
+	 { 
+	   ingredients=value;
+	 }
+	 static String getingredients()
+	 {
+		 return ingredients;
+	 }
+	 static void setexpiryDate(String value)
+	 {
+		 expiryDate=value;
+	 }	 
+	 static String getexpiryDate()
+	 {
+		 return expiryDate;
+	 }
+	 static void setactiveIngredients(String value)
+	 {
+		 activeIngredients=value;
+	 }
+	 static String getactiveIngredients()
+	 {
+		 return activeIngredients;
+	 }
+	 static void setdirections(String value)
+	 {
+		 directions=value;
+	 }
+	 static String getdirections()
+	 {
+		 return directions;
+	 }
 
    	 
 }
